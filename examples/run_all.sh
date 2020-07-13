@@ -1,0 +1,11 @@
+#!/bin/bash
+
+python ground_truth_exp_estimate_mnl_vs_exp.py
+python ground_truth_lc_method_comparison.py
+python ground_truth_mkv_method_comparison.py
+python ground_truth_mnl_estimate_mnl_vs_exp.py
+python ground_truth_mx_estimate_mnl_vs_mx.py
+python ground_truth_nl_estimate_mnl_vs_nl.py
+python ground_truth_rl_method_comparison.py
+python instance_from_dataset_100_lists.py
+python instance_from_dataset_10_lists.py

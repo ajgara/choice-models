@@ -1,0 +1,5552 @@
+{
+ "ground_model": {
+  "betas": [
+   0.005433682768961938,
+   0.022059148065857126,
+   0.017868902142919415,
+   0.038911812229049665,
+   0.0035175400334110114,
+   0.041589957111837314,
+   0.00026498104957676513,
+   0.036307702565040505,
+   0.03404627403334626
+  ],
+  "code": "rl",
+  "products": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "ranked_lists": [
+   [
+    0,
+    10,
+    7,
+    9,
+    4,
+    5,
+    8,
+    2,
+    1,
+    3,
+    6
+   ],
+   [
+    7,
+    9,
+    0,
+    5,
+    2,
+    1,
+    3,
+    10,
+    8,
+    4,
+    6
+   ],
+   [
+    6,
+    9,
+    2,
+    7,
+    0,
+    5,
+    4,
+    8,
+    1,
+    10,
+    3
+   ],
+   [
+    2,
+    9,
+    3,
+    0,
+    8,
+    6,
+    10,
+    5,
+    1,
+    7,
+    4
+   ],
+   [
+    4,
+    7,
+    8,
+    9,
+    6,
+    2,
+    0,
+    10,
+    5,
+    1,
+    3
+   ],
+   [
+    9,
+    5,
+    8,
+    0,
+    7,
+    10,
+    4,
+    1,
+    6,
+    2,
+    3
+   ],
+   [
+    2,
+    1,
+    0,
+    9,
+    4,
+    6,
+    8,
+    7,
+    3,
+    5,
+    10
+   ],
+   [
+    6,
+    0,
+    1,
+    3,
+    2,
+    7,
+    10,
+    9,
+    4,
+    5,
+    8
+   ],
+   [
+    3,
+    7,
+    5,
+    2,
+    10,
+    8,
+    4,
+    6,
+    0,
+    1,
+    9
+   ],
+   [
+    10,
+    0,
+    6,
+    4,
+    8,
+    5,
+    7,
+    3,
+    1,
+    2,
+    9
+   ]
+  ]
+ },
+ "transactions": {
+  "in_sample_transactions": [
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 5,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 6,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 4,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 9,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 4,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 5,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 4,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 1,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 4,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 8,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 5,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 1,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 6,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     8
+    ]
+   }
+  ],
+  "out_of_sample_transactions": [
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     5,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 1,
+    "offered_products": [
+     0,
+     1,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     6
+    ]
+   },
+   {
+    "product": 9,
+    "offered_products": [
+     0,
+     1,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 4,
+    "offered_products": [
+     0,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     6,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     6,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     5,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     5
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     3,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 4,
+    "offered_products": [
+     0,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 6,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 6,
+    "offered_products": [
+     0,
+     1,
+     5,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "product": 9,
+    "offered_products": [
+     0,
+     5,
+     6,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 5,
+    "offered_products": [
+     0,
+     2,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     4,
+     5,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 1,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 6,
+    "offered_products": [
+     0,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     6,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     5,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 5,
+    "offered_products": [
+     0,
+     1,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 9,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     3,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     1,
+     2,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     6,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 8,
+    "offered_products": [
+     0,
+     3,
+     5,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "product": 2,
+    "offered_products": [
+     0,
+     2,
+     5,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 3,
+    "offered_products": [
+     0,
+     2,
+     3,
+     6,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     5,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 6,
+    "offered_products": [
+     0,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     5
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     6,
+     7,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     9
+    ]
+   },
+   {
+    "product": 7,
+    "offered_products": [
+     0,
+     1,
+     2,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     6,
+     10
+    ]
+   },
+   {
+    "product": 9,
+    "offered_products": [
+     0,
+     1,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     6,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 10,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     3,
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     6
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     4,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     7,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     6,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     6,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     4,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     5,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     6,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     4,
+     7,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     5,
+     7
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     6,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     3,
+     8,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     1,
+     2,
+     3,
+     5,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     7,
+     9,
+     10
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     3,
+     5,
+     8,
+     9
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     4,
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "product": 0,
+    "offered_products": [
+     0,
+     2,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  ]
+ }
+}
