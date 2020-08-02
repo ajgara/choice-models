@@ -1,3 +1,6 @@
+# This code is from the paper:
+# Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
 # Electronic companion of the paper:
 # "A Comparative Empirical Study of Discrete Choice Models in Retail Operations" by
 # - Gerardo Berbeglia: Melbourne Business School, University of Melbourne, g.berbeglia@mbs.edu

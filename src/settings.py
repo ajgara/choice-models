@@ -1,3 +1,6 @@
+# This code is from the paper:
+# Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
 NLP_LOWER_BOUND_INF = -1e19
 NLP_UPPER_BOUND_INF = 1e19
 

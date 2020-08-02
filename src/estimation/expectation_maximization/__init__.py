@@ -1,3 +1,6 @@
+# This code is from the paper:
+# Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
 from estimation import Estimator
 from settings import Settings
 from utils import time_for_optimization

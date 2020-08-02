@@ -1,3 +1,6 @@
+# This code is from the paper:
+# Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
 from models import Model
 from optimization.non_linear import Constraints
 from settings import NLP_UPPER_BOUND_INF
