@@ -1,0 +1,18 @@
+These synthetic instances are from the paper:
+Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
+Each file constains a nested logit instance in JSON format. An instance is composed of two parts:
+
+Part 1: Ground Truth
+- Products: An enumeration of all the products
+- Etas: The independent term of the nominal utility for each product, normalized to get a 50% market share.
+- Nests: Each nest contains
+	- The products that belong to the nest
+	- Lambda parameter: the degree of dissimilarity of products in nest
+	- Price sensitivity of the nest 
+
+Part 2: Transactions
+Each transaction is composed of an assortment of products, the prices for each product in order and a product chosen (If product 0 is chosen it means nothing was purchased).
+Transactions are grouped into:
+- In-sample transactions: Used to train the models.
+- Out of Sample transactions: Used to test the models. This is not needed if one uses the soft-RMSE across ALL assortments. In our paper, we don't use this information.

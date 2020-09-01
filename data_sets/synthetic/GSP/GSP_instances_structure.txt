@@ -1,0 +1,35 @@
+These synthetic instances are from the paper:
+Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
+Each file constains a generalized stochastic preference instance in JSON format. An instance is composed of two parts:
+
+Part 1: Ground Truth
+- Choices: The index associated to each list. 
+An index of 0 always chooses the no-purchase. 
+An index = 1 means the consumer takes the list as a standard preference order.
+An index = 2 means the consumer has a behaviour that falls outside the RUM class.
+- Products: An enumeration of all the products
+- Ranked lists: An enumeration of the lists l1, .., lm
+- Betas: The probability associated to each preference list p2, .., pm. The probability for the first list is p1 = 1 - p2 - .. - pm
+
+Part 2: Transactions
+Each transaction is composed of an assortment of products and a product chosen (If product 0 is chosen it means nothing was purchased).
+Transactions are grouped into:
+- In-sample transactions: Used to train the models.
+- Out of Sample transactions: Used to test the models. This is not needed if one uses the soft-RMSE across ALL assortments. In our paper, we don't use this information.
+
+The revenues associated with each product are:
+
+Product     Revenue
+0           0.0
+1           4.69
+2           8.99
+3           14.99
+4           9.99
+5           15.99
+6           13.99
+7           10.99
+8           14.99
+9           15.99
+10          9.99
+

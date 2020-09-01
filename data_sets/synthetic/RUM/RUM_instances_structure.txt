@@ -1,0 +1,15 @@
+These synthetic instances are from the paper:
+Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
+Each file constains a stochastic preference instance in JSON format. An instance is composed of two parts:
+
+Part 1: Ground Truth
+- Products: An enumeration of all the products
+- Ranked lists: An enumeration of the preference lists l1, .., lm
+- Betas: The probability associated to each preference list p2, .., pm. The probability for the first list is p1 = 1 - p2 - .. - pm
+
+Part 2: Transactions
+Each transaction is composed of an assortment of products and a product chosen (If product 0 is chosen it means nothing was purchased).
+Transactions are grouped into:
+- In-sample transactions: Used to train the models.
+- Out of Sample transactions: Used to test the models. This is not needed if one uses the soft-RMSE across ALL assortments. In our paper, we don't use this information.

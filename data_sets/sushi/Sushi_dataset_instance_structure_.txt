@@ -1,0 +1,45 @@
+The following instances belong to [1] based on a dataset of real preferences produced by Toshihiro Kamishima [2].
+
+[1] Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+[2] http://www.kamishima.net/sushi/ 
+
+Each file constains the same ranked-based ground truth: 5,000 people were asked to rank 10 types of sushis [2].
+
+There are two types of instances:
+type 1 - TOP 3: We trim each of the 5,000 preference lists to only retain the top 3 sushis for that individual. If the offer set S does not contain any of the top 3 choices, the individual would choose 0.
+type 2 - TOP 5: We trim each of the 5,000 preference lists to only retain the top 5 sushis for that individual. If the offer set S does not contain any of the top 5 choices, the individual would choose 0.
+
+(Note: The lists appear in full, but the no-purchase alternative appears in position 4 under type 1 (top 3) and in position 6 under type 2 (top 5)).
+
+Each of the 5,000 preference lists (counting repetitions) has a weight of 0.01% (adding to a total of 50% Market share)
+The remaining 50% of the weight is associated to an ficticious agent who always chooses the no-purchase alternative.
+
+
+An instance is composed of two parts:
+
+Part 1: Ground Truth
+- Products: An enumeration of all the products
+- Ranked lists: An enumeration of the preference lists l1, .., lm
+- Betas: The probability associated to each preference list p2, .., pm. The probability for the first list is p1 = 1 - p2 - .. - pm
+
+Part 2: Transactions
+Each transaction is composed of an assortment of products and a product chosen (If product 0 is chosen it means nothing was purchased).
+Transactions are grouped into:
+- In-sample transactions: Used to train the models.
+- Out of Sample transactions: Used to test the models. This is not needed if one uses the soft-RMSE across ALL assortments. In our paper, we don't use this information.
+
+The revenues associated with each product are:
+
+Product    Revenue
+0          0.0 
+1          1.838419913 
+2          1.992458678 
+3          1.874724518
+4          1.515151515 
+5          3.28728191 
+6          2.695362718 
+7          1.032467532
+8          4.48545454
+9          1.57983683 
+10         1.02 
+

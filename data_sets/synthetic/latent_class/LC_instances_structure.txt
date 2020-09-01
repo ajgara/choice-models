@@ -1,0 +1,15 @@
+These synthetic instances are from the paper:
+Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
+
+Each file constains a latent class instance in JSON format. An instance is composed of two parts:
+
+Part 1: Ground Truth
+- Products: An enumeration of all the products
+- Gammas: The weight of each class, they sum up to one.
+- Multinomial logit models: one model for each of the k classes, each model has a list "etas". The ith position of "etas" contains the value of exp(Vi) where Vi is the nominal utility of the ith product. We assume V0=0 for the no purchase.
+
+Part 2: Transactions
+Each transaction is composed of an assortment of products and a product chosen (If product 0 is chosen it means nothing was purchased).
+Transactions are grouped into:
+- In-sample transactions: Used to train the models.
+- Out of Sample transactions: Used to test the models. This is not needed if one uses the soft-RMSE across ALL assortments. In our paper, we don't use this information.
