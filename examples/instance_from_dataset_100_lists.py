@@ -1,23 +1,17 @@
 # This code is from the paper:
 # Berbeglia, G., Garassino, A., & Vulcano, G. (2018). A comparative empirical study of discrete choice models in retail operations. Available at SSRN 3136816.
 
-import os
-import sys
-
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + '/../src/')
-
-from settings import Settings
+from python_choice_models.settings import Settings
 import json
-from models import Model, ExponomialModel, MultinomialLogitModel, RandomChoiceModel, LatentClassModel, MarkovChainModel, \
+from python_choice_models.models import Model, ExponomialModel, MultinomialLogitModel, RandomChoiceModel, LatentClassModel, MarkovChainModel, \
     MarkovChainRank2Model, MixedLogitModel, NestedLogitModel, RankedListModel
-from estimation.maximum_likelihood import MaximumLikelihoodEstimator
-from estimation.maximum_likelihood.latent_class import LatentClassFrankWolfeEstimator
-from estimation.maximum_likelihood.random_choice import RandomChoiceModelMaximumLikelihoodEstimator
-from estimation.expectation_maximization.markov_chain import MarkovChainExpectationMaximizationEstimator
-from estimation.expectation_maximization.ranked_list import RankedListExpectationMaximizationEstimator
-from estimation.market_explore.ranked_list import MIPMarketExplorer
-
-from transactions.base import Transaction
+from python_choice_models.estimation.maximum_likelihood import MaximumLikelihoodEstimator
+from python_choice_models.estimation.maximum_likelihood.latent_class import LatentClassFrankWolfeEstimator
+from python_choice_models.estimation.maximum_likelihood.random_choice import RandomChoiceModelMaximumLikelihoodEstimator
+from python_choice_models.estimation.expectation_maximization.markov_chain import MarkovChainExpectationMaximizationEstimator
+from python_choice_models.estimation.expectation_maximization.ranked_list import RankedListExpectationMaximizationEstimator
+from python_choice_models.estimation.market_explore.ranked_list import MIPMarketExplorer
+from python_choice_models.transactions.base import Transaction
 import numpy as np
 import random
 import matplotlib.pyplot as plt
