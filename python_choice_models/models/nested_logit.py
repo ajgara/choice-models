@@ -5,7 +5,7 @@ from numpy import ones, array
 from python_choice_models.models import Model
 from python_choice_models.optimization.non_linear import Constraints
 from python_choice_models.utils import generate_n_equal_numbers_that_sum_one, generate_n_random_numbers_that_sum_m, ONE_UPPER_BOUND
-import python_choice_models.settings
+import python_choice_models.settings as settings
 import numpy
 
 

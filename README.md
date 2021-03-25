@@ -18,6 +18,7 @@ The dependencies found in the file **requirements.txt** are necessary in order t
 
 ```
 $ pip install -r requirements.txt
+$ python setup.py install
 ```
 
 For more instructions just run:

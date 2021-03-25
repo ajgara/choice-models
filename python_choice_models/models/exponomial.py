@@ -6,7 +6,7 @@ from numpy import ones
 from python_choice_models.models import Model
 from python_choice_models.optimization.non_linear import Constraints
 import numpy as np
-import python_choice_models.settings
+import python_choice_models.settings as settings
 
 
 class ExponomialModel(Model):

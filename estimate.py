@@ -24,11 +24,11 @@ from python_choice_models.estimation.maximum_likelihood import MaximumLikelihood
 from python_choice_models.estimation.maximum_likelihood.latent_class import LatentClassFrankWolfeEstimator
 from python_choice_models.estimation.maximum_likelihood.ranked_list import RankedListMaximumLikelihoodEstimator
 
-from settings import Settings
+from python_choice_models.settings import Settings
 
-from models import Model, MixedLogitModel, MultinomialLogitModel, ExponomialModel, LatentClassModel, MarkovChainModel, MarkovChainRank2Model, NestedLogitModel, RandomChoiceModel, RankedListModel
+from python_choice_models.models import Model, MixedLogitModel, MultinomialLogitModel, ExponomialModel, LatentClassModel, MarkovChainModel, MarkovChainRank2Model, NestedLogitModel, RandomChoiceModel, RankedListModel
 
-from transactions.base import Transaction
+from python_choice_models.transactions.base import Transaction
 
 GLOBAL_TIME_LIMIT = 1800
 

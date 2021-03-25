@@ -6,7 +6,7 @@ from python_choice_models.models import Model
 from python_choice_models.models.multinomial_logit import MultinomialLogitModel
 from python_choice_models.utils import generate_n_equal_numbers_that_sum_one, generate_n_random_numbers_that_sum_one, ZERO_LOWER_BOUND
 from python_choice_models.optimization.non_linear import Constraints
-import python_choice_models.settings
+import python_choice_models.settings as settings
 from functools import reduce
 
 
