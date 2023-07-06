@@ -1,6 +1,6 @@
 numpy==1.19.0
 numba==0.50.1
 #cplex==12.8.0.0    # Just for Ranked List
-scipy==1.2.1
+scipy==1.10.0
 ghalton==0.6.2     # Just for Mixed Logit
 matplotlib==3.2.2  # Just for plots
